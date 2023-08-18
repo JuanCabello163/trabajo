@@ -33,6 +33,14 @@ public class Trabajo {
             }
         }
         
+        //mostrar los numeros ordenados
+        System.out.print("Ordenado de menor a mayor: ");
+        for(int i = 0; i < numeros.length; i++){
+            System.out.print(numeros[i]);
+            if (i < numeros.length - 1){
+                System.out.print(", ");
+            }
+        }
         
         
         
