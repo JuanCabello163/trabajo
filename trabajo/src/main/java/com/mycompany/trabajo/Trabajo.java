@@ -41,11 +41,10 @@ public class Trabajo {
                 System.out.print(", ");
             }
         }
+        System.out.println();
         
-        
-        
-        
-        
-        
+        scanner.close();
+        scanner.close();
+    
     }
 }
