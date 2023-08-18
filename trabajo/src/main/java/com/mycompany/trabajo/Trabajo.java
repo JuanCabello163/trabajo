@@ -23,5 +23,21 @@ public class Trabajo {
             numeros[i] = scanner.nextInt();
         }
         
+        // Algoritmo de seleccion para ordenar los numeros
+        for (int i = 0; i < numeros.length - 1; i++){
+            int minIndex = i;
+            for (int j = i + 1; j < numeros.length; j++){
+                if(numeros[j] < numeros[minIndex]){
+                    minIndex = j;
+                }
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
     }
 }
